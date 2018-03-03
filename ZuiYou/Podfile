@@ -1,0 +1,29 @@
+source 'https://github.com/Artsy/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+#inhibit_all_warnings!
+
+target ‘ZuiYou’ do
+    
+    pod 'ReactiveObjC', '~> 3.0.0'
+    pod 'MJRefresh', '~> 3.1.12'
+    pod 'MJExtension', '~> 3.0.13'
+    pod 'SDWebImage' , '~> 4.0.0'
+    pod 'IGListKit', '~> 3.0'
+    #内存泄漏检测
+    pod 'MLeaksFinder'
+
+#开发模式指定路径
+    pod 'LECategorys', :path => '../Modul/LECategorys'
+    pod 'AFNetworking+LE', :path => '../Modul/AFNetworking+LE'
+    pod 'LENavigation', :path => '../Modul/LENavigation'
+    pod 'XXTransition', :path => '../Modul/XXTransition'
+    #工具
+    pod 'LEUtils', :path => '../Modul/LEUtils'
+
+    pod 'PageViewController', :path => '../Modul/PageViewController'
+    pod 'LETableView', :path => '../Modul/LETableView'
+
+end
+#use_frameworks!

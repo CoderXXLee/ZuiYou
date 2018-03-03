@@ -1,0 +1,1 @@
+../../../../../Modul/LECategorys/LECategorys/UICollectionViewCell+Category.h

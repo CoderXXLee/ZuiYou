@@ -1,0 +1,20 @@
+{
+    "data":[
+            [
+             {"icon":"icon","title":"游戏","className":"className"},
+             {"icon":"icon","title":"日记","className":"className"},
+             {"icon":"icon","title":"看点","className":"className"},
+             {"icon":"icon","title":"京东购物","className":"TYShopViewController"},
+             {"icon":"icon","title":"阅读","className":"className"},
+             {"icon":"icon","title":"动漫","className":"className"},
+             {"icon":"icon","title":"音乐","className":"className"},
+             {"icon":"icon","title":"NOW直播","className":"className"},
+             {"icon":"icon","title":"热门活动","className":"className"}],
+            [
+             {"icon":"icon","title":"运动","className":"TYRunViewController"},
+             {"icon":"icon","title":"吃喝玩乐","className":"className"},
+             {"icon":"icon","title":"同城服务","className":"className"},
+             ],
+            []
+            ]
+}

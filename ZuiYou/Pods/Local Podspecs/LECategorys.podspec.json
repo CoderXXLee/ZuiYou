@@ -1,0 +1,23 @@
+{
+  "name": "LECategorys",
+  "version": "0.0.4",
+  "summary": "LECategorys是个人私有库.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://192.168.1.117:8099/r/LECategorys.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LE": "551998132@qq.com"
+  },
+  "source": {
+    "git": "http://192.168.1.117:8099/r/LECategorys.git",
+    "tag": "0.0.4"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LECategorys/*.{h,m}",
+  "frameworks": "UIKit"
+}

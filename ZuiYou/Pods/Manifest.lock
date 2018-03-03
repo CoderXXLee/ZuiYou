@@ -1,0 +1,90 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking+LE (0.0.1):
+    - AFNetworking (~> 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FBRetainCycleDetector (0.1.4)
+  - IGListKit (3.2.0):
+    - IGListKit/Default (= 3.2.0)
+  - IGListKit/Default (3.2.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.2.0)
+  - LECategorys (0.0.4)
+  - LENavigation (0.0.1)
+  - LETableView (0.0.1)
+  - LEUtils (0.0.1)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.3)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - PageViewController (0.0.1)
+  - ReactiveObjC (3.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - XXTransition (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking+LE (from `../Modul/AFNetworking+LE`)
+  - IGListKit (~> 3.0)
+  - LECategorys (from `../Modul/LECategorys`)
+  - LENavigation (from `../Modul/LENavigation`)
+  - LETableView (from `../Modul/LETableView`)
+  - LEUtils (from `../Modul/LEUtils`)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - MLeaksFinder
+  - PageViewController (from `../Modul/PageViewController`)
+  - ReactiveObjC (~> 3.0.0)
+  - SDWebImage (~> 4.0.0)
+  - XXTransition (from `../Modul/XXTransition`)
+
+EXTERNAL SOURCES:
+  AFNetworking+LE:
+    :path: "../Modul/AFNetworking+LE"
+  LECategorys:
+    :path: "../Modul/LECategorys"
+  LENavigation:
+    :path: "../Modul/LENavigation"
+  LETableView:
+    :path: "../Modul/LETableView"
+  LEUtils:
+    :path: "../Modul/LEUtils"
+  PageViewController:
+    :path: "../Modul/PageViewController"
+  XXTransition:
+    :path: "../Modul/XXTransition"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AFNetworking+LE: 3168cd58ea8e95bb1c80e13173eb584161f5ad74
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  IGListKit: ffe6f98a728ab0250aceea22e7957aa5477c5048
+  LECategorys: a52f786c3079c493f2561582116449b75c0bb2e7
+  LENavigation: f07d1293483d3f72ddb01e941d61a280cf858f49
+  LETableView: 96899a7961d43b5a91ffb67bacc1bc066edf9e15
+  LEUtils: 31eec47e0b6fbc1413ee459b2a3b20a4d4b2c505
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  PageViewController: ecea3a19e6e1b096ab88fce8da9fffe789265081
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  XXTransition: ba7f217badc54032dfdd584a20b0e33cd743dd0d
+
+PODFILE CHECKSUM: fbba27cb712189a6103902fd93ed99ecfe28b5b8
+
+COCOAPODS: 1.2.0
