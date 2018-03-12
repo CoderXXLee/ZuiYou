@@ -11,16 +11,6 @@
 @interface ZYAvatarCell : UICollectionViewCell
 
 /**
- 头像
- */
-@property (weak, nonatomic) IBOutlet UIImageView *avatarIV;
-
-/**
- 用户名
- */
-@property (weak, nonatomic) IBOutlet UILabel *nameL;
-
-/**
  关闭按钮
  */
 @property (weak, nonatomic) IBOutlet UIButton *closeBtn;

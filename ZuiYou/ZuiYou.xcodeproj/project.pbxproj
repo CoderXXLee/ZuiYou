@@ -42,6 +42,18 @@
 		04A22FC1204A49D6006290B4 /* ZYMemberM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A22FC0204A49D6006290B4 /* ZYMemberM.m */; };
 		04A22FC4204A6A38006290B4 /* ZYGodReviewsM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A22FC3204A6A38006290B4 /* ZYGodReviewsM.m */; };
 		04A22FCC204A7C66006290B4 /* ZYFeaturedCellM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A22FCB204A7C66006290B4 /* ZYFeaturedCellM.m */; };
+		04A22FCF204CF096006290B4 /* ZYImageSC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A22FCE204CF096006290B4 /* ZYImageSC.m */; };
+		04D9019A204D655900B1601B /* NSArray+IGListDiffable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D90199204D655900B1601B /* NSArray+IGListDiffable.m */; };
+		04D9019E204D8A9A00B1601B /* ZYImageSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9019C204D8A9A00B1601B /* ZYImageSectionCell.m */; };
+		04D9019F204D8A9A00B1601B /* ZYImageSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D9019D204D8A9A00B1601B /* ZYImageSectionCell.xib */; };
+		04D901A3204E2E8C00B1601B /* ZYFTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D901A1204E2E8C00B1601B /* ZYFTopicCell.m */; };
+		04D901A4204E2E8C00B1601B /* ZYFTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D901A2204E2E8C00B1601B /* ZYFTopicCell.xib */; };
+		04D901A8204E364400B1601B /* ZYFInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D901A6204E364400B1601B /* ZYFInfoCell.m */; };
+		04D901A9204E364400B1601B /* ZYFInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D901A7204E364400B1601B /* ZYFInfoCell.xib */; };
+		04D901AD204E42D100B1601B /* ZYFGodReviewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D901AB204E42D100B1601B /* ZYFGodReviewsCell.m */; };
+		04D901AE204E42D100B1601B /* ZYFGodReviewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D901AC204E42D100B1601B /* ZYFGodReviewsCell.xib */; };
+		04D901B1204E79FB00B1601B /* ZYFGodReviewsSC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D901B0204E79FB00B1601B /* ZYFGodReviewsSC.m */; };
+		04D901B5204FE98700B1601B /* IGListDisplayDelegateM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D901B4204FE98700B1601B /* IGListDisplayDelegateM.m */; };
 		C2C12D0E451DC323CEE71041 /* libPods-ZuiYou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 935B330EAF592B08736656DC /* libPods-ZuiYou.a */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +129,26 @@
 		04A22FC9204A7AFE006290B4 /* UICollectionViewCell+ZYExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+ZYExtension.h"; sourceTree = "<group>"; };
 		04A22FCA204A7C66006290B4 /* ZYFeaturedCellM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFeaturedCellM.h; sourceTree = "<group>"; };
 		04A22FCB204A7C66006290B4 /* ZYFeaturedCellM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFeaturedCellM.m; sourceTree = "<group>"; };
+		04A22FCD204CF096006290B4 /* ZYImageSC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYImageSC.h; sourceTree = "<group>"; };
+		04A22FCE204CF096006290B4 /* ZYImageSC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYImageSC.m; sourceTree = "<group>"; };
+		04D90198204D655900B1601B /* NSArray+IGListDiffable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+IGListDiffable.h"; sourceTree = "<group>"; };
+		04D90199204D655900B1601B /* NSArray+IGListDiffable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IGListDiffable.m"; sourceTree = "<group>"; };
+		04D9019B204D8A9A00B1601B /* ZYImageSectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYImageSectionCell.h; sourceTree = "<group>"; };
+		04D9019C204D8A9A00B1601B /* ZYImageSectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYImageSectionCell.m; sourceTree = "<group>"; };
+		04D9019D204D8A9A00B1601B /* ZYImageSectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYImageSectionCell.xib; sourceTree = "<group>"; };
+		04D901A0204E2E8C00B1601B /* ZYFTopicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFTopicCell.h; sourceTree = "<group>"; };
+		04D901A1204E2E8C00B1601B /* ZYFTopicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFTopicCell.m; sourceTree = "<group>"; };
+		04D901A2204E2E8C00B1601B /* ZYFTopicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYFTopicCell.xib; sourceTree = "<group>"; };
+		04D901A5204E364400B1601B /* ZYFInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFInfoCell.h; sourceTree = "<group>"; };
+		04D901A6204E364400B1601B /* ZYFInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFInfoCell.m; sourceTree = "<group>"; };
+		04D901A7204E364400B1601B /* ZYFInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYFInfoCell.xib; sourceTree = "<group>"; };
+		04D901AA204E42D100B1601B /* ZYFGodReviewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFGodReviewsCell.h; sourceTree = "<group>"; };
+		04D901AB204E42D100B1601B /* ZYFGodReviewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFGodReviewsCell.m; sourceTree = "<group>"; };
+		04D901AC204E42D100B1601B /* ZYFGodReviewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYFGodReviewsCell.xib; sourceTree = "<group>"; };
+		04D901AF204E79FB00B1601B /* ZYFGodReviewsSC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFGodReviewsSC.h; sourceTree = "<group>"; };
+		04D901B0204E79FB00B1601B /* ZYFGodReviewsSC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFGodReviewsSC.m; sourceTree = "<group>"; };
+		04D901B3204FE98700B1601B /* IGListDisplayDelegateM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGListDisplayDelegateM.h; sourceTree = "<group>"; };
+		04D901B4204FE98700B1601B /* IGListDisplayDelegateM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGListDisplayDelegateM.m; sourceTree = "<group>"; };
 		0EBB26D853BD2B44B20E7CF4 /* Pods-ZuiYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuiYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZuiYou/Pods-ZuiYou.debug.xcconfig"; sourceTree = "<group>"; };
 		935B330EAF592B08736656DC /* libPods-ZuiYou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuiYou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78EE6DA7B4748152339D3BB /* Pods-ZuiYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuiYou.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZuiYou/Pods-ZuiYou.release.xcconfig"; sourceTree = "<group>"; };
@@ -290,6 +322,7 @@
 		0411F98620469E79000A1E31 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				04D901B2204FE8FD00B1601B /* IGListExtension */,
 				0411F98B20469F5E000A1E31 /* Lib */,
 				0411F9B32047E502000A1E31 /* MJRefresh */,
 				0411F98720469F5D000A1E31 /* Navigation */,
@@ -461,6 +494,18 @@
 				04A22FAB20492C52006290B4 /* ZYFImageCell.h */,
 				04A22FAC20492C52006290B4 /* ZYFImageCell.m */,
 				04A22FAD20492C52006290B4 /* ZYFImageCell.xib */,
+				04D9019B204D8A9A00B1601B /* ZYImageSectionCell.h */,
+				04D9019C204D8A9A00B1601B /* ZYImageSectionCell.m */,
+				04D9019D204D8A9A00B1601B /* ZYImageSectionCell.xib */,
+				04D901A0204E2E8C00B1601B /* ZYFTopicCell.h */,
+				04D901A1204E2E8C00B1601B /* ZYFTopicCell.m */,
+				04D901A2204E2E8C00B1601B /* ZYFTopicCell.xib */,
+				04D901A5204E364400B1601B /* ZYFInfoCell.h */,
+				04D901A6204E364400B1601B /* ZYFInfoCell.m */,
+				04D901A7204E364400B1601B /* ZYFInfoCell.xib */,
+				04D901AA204E42D100B1601B /* ZYFGodReviewsCell.h */,
+				04D901AB204E42D100B1601B /* ZYFGodReviewsCell.m */,
+				04D901AC204E42D100B1601B /* ZYFGodReviewsCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -470,6 +515,10 @@
 			children = (
 				04A22FB120493866006290B4 /* ZYFeaturedSC.h */,
 				04A22FB220493866006290B4 /* ZYFeaturedSC.m */,
+				04A22FCD204CF096006290B4 /* ZYImageSC.h */,
+				04A22FCE204CF096006290B4 /* ZYImageSC.m */,
+				04D901AF204E79FB00B1601B /* ZYFGodReviewsSC.h */,
+				04D901B0204E79FB00B1601B /* ZYFGodReviewsSC.m */,
 			);
 			path = SectionController;
 			sourceTree = "<group>";
@@ -478,8 +527,19 @@
 			isa = PBXGroup;
 			children = (
 				04A22FC9204A7AFE006290B4 /* UICollectionViewCell+ZYExtension.h */,
+				04D90198204D655900B1601B /* NSArray+IGListDiffable.h */,
+				04D90199204D655900B1601B /* NSArray+IGListDiffable.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		04D901B2204FE8FD00B1601B /* IGListExtension */ = {
+			isa = PBXGroup;
+			children = (
+				04D901B3204FE98700B1601B /* IGListDisplayDelegateM.h */,
+				04D901B4204FE98700B1601B /* IGListDisplayDelegateM.m */,
+			);
+			path = IGListExtension;
 			sourceTree = "<group>";
 		};
 		8AE26E06D3E1DB20848BCD70 /* Frameworks */ = {
@@ -593,9 +653,13 @@
 				0411F95F20468FC8000A1E31 /* Main.storyboard in Resources */,
 				04A22FBB204A350A006290B4 /* detail.json in Resources */,
 				0411F9C72048E110000A1E31 /* list.json in Resources */,
+				04D901A9204E364400B1601B /* ZYFInfoCell.xib in Resources */,
+				04D9019F204D8A9A00B1601B /* ZYImageSectionCell.xib in Resources */,
+				04D901A4204E2E8C00B1601B /* ZYFTopicCell.xib in Resources */,
 				0411F9C62048E110000A1E31 /* topic.json in Resources */,
 				0411F9D12049299B000A1E31 /* ZYAvatarCell.xib in Resources */,
 				04A22FAA20492B6D006290B4 /* ZYFTitleCell.xib in Resources */,
+				04D901AE204E42D100B1601B /* ZYFGodReviewsCell.xib in Resources */,
 				0411F9C42048E110000A1E31 /* Profile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -666,13 +730,17 @@
 				0411F9B62047E515000A1E31 /* LEDIYHeader.m in Sources */,
 				04A22FB320493866006290B4 /* ZYFeaturedSC.m in Sources */,
 				04A22FAE20492C52006290B4 /* ZYFImageCell.m in Sources */,
+				04A22FCF204CF096006290B4 /* ZYImageSC.m in Sources */,
 				0411F9B22047D357000A1E31 /* UIView+LEBadge.m in Sources */,
+				04D9019E204D8A9A00B1601B /* ZYImageSectionCell.m in Sources */,
 				0411F96720468FC8000A1E31 /* main.m in Sources */,
 				0411F9B12047D357000A1E31 /* RKNotificationHub.m in Sources */,
 				0411F9B92047E73F000A1E31 /* ZYFeaturedVC.m in Sources */,
+				04D901AD204E42D100B1601B /* ZYFGodReviewsCell.m in Sources */,
 				0411F98F2046AE84000A1E31 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				0411F9A22047A9A6000A1E31 /* LETabBarController.m in Sources */,
 				04A22FA920492B6D006290B4 /* ZYFTitleCell.m in Sources */,
+				04D901B1204E79FB00B1601B /* ZYFGodReviewsSC.m in Sources */,
 				04A22FB6204947CA006290B4 /* ZYFeaturedM.m in Sources */,
 				04A22FBE204A42BB006290B4 /* ZYImagesM.m in Sources */,
 				04A22FC4204A6A38006290B4 /* ZYGodReviewsM.m in Sources */,
@@ -681,9 +749,13 @@
 				0411F9AB2047CA07000A1E31 /* LETabBarButton.m in Sources */,
 				0411F95920468FC8000A1E31 /* AppDelegate.m in Sources */,
 				0411F9A52047C8B0000A1E31 /* LETabBarView.m in Sources */,
+				04D901A3204E2E8C00B1601B /* ZYFTopicCell.m in Sources */,
 				04A22FB9204953A3006290B4 /* ZYFeaturedService.m in Sources */,
 				04A22FC1204A49D6006290B4 /* ZYMemberM.m in Sources */,
 				0411F9A82047C9F3000A1E31 /* LEButton.m in Sources */,
+				04D901A8204E364400B1601B /* ZYFInfoCell.m in Sources */,
+				04D9019A204D655900B1601B /* NSArray+IGListDiffable.m in Sources */,
+				04D901B5204FE98700B1601B /* IGListDisplayDelegateM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

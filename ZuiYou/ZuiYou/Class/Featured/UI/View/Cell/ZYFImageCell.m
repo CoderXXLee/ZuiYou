@@ -9,11 +9,27 @@
 #import "ZYFImageCell.h"
 #import "UICollectionViewCell+ZYExtension.h"
 
+@interface ZYFImageCell ()
+
+@end
+
 @implementation ZYFImageCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+
+//    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+////    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+////    self.collectionView.collectionViewLayout = layout;
+//
+//    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
+//    [self.contentView addSubview:collectionView];
+//    self.collectionView = collectionView;
+}
+
+- (void)layoutSubviews {
+    [super layoutSubviews];
+//    self.collectionView.frame = self.contentView.bounds;
 }
 
 /**

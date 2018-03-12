@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <IGListDiffable.h>
 
-@interface ZYImagesM : NSObject
+@interface ZYImagesM : NSObject <IGListDiffable>
 
 @property(nonatomic, copy) NSString *uid;
 @property(nonatomic, copy) NSString *h;
@@ -20,7 +21,7 @@
 @end
 
 
-@interface ZYVideosM : NSObject
+@interface ZYVideosM : NSObject <IGListDiffable>
 
 /**
  "dur": 223,

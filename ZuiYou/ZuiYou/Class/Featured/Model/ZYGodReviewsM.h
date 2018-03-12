@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <IGListDiffable.h>
 @class ZYImagesM, ZYVideosM;
 
-@interface ZYGodReviewsM : NSObject
+@interface ZYGodReviewsM : NSObject <IGListDiffable>
 
 /**
  "_id":339948764,

@@ -114,7 +114,9 @@
 }
 
 - (IGListSectionController *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(id)object {
-    IGListStackedSectionController *stackSC = [[IGListStackedSectionController alloc] initWithSectionControllers:@[[[ZYFeaturedSC alloc] init]]];
+//    IGListStackedSectionController *stackSC = [[IGListStackedSectionController alloc] initWithSectionControllers:@[[[ZYFeaturedSC alloc] init]]];
+    ZYFeaturedSC *stackSC = [[ZYFeaturedSC alloc] init];
+    stackSC.inset = UIEdgeInsetsMake(0, 0, 10, 0);
     return stackSC;
 }
 

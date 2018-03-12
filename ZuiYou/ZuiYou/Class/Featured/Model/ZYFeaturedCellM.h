@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 @import UIKit;
+@class IGListSectionController;
 
 @interface ZYFeaturedCellM : NSObject
 
@@ -17,9 +18,11 @@
 @property(nonatomic, strong, readonly) NSString *cellName;
 
 /**
- 高度
+ cell size
  */
+@property(nonatomic, assign) CGSize cellSize;
 @property(nonatomic, assign) CGFloat cellHeight;
+@property(nonatomic, assign) CGFloat cellWidth;
 
 /**
  数据源
@@ -27,8 +30,13 @@
 @property(nonatomic, strong) id dataSource;
 
 /**
+ IGListSectionController
+ */
+@property(nonatomic, strong) IGListSectionController *sectionController;
+
+/**
  初始化
  */
-- (instancetype)initWithCellName:(NSString *)cellName cellHeight:(CGFloat)cellHeight dataSource:(id)dataSource;
+- (instancetype)initWithCellName:(NSString *)cellName cellSize:(CGSize)cellSize dataSource:(id)dataSource;
 
 @end

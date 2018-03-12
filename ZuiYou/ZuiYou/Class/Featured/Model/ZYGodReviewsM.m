@@ -45,4 +45,15 @@
     return oldValue;
 }
 
+#pragma mark - IGListDiffable
+
+- (id<NSObject>)diffIdentifier {
+    return self;
+}
+
+- (BOOL)isEqualToDiffableObject:(id)object {
+    // since the diff identifier returns self, object should only be compared with same instance
+    return self == object;
+}
+
 @end

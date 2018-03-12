@@ -10,4 +10,7 @@
 
 @interface ZYFImageCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+//@property(nonatomic, weak) UICollectionView *collectionView;
+
 @end

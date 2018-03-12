@@ -8,6 +8,22 @@
 
 #import "ZYAvatarCell.h"
 #import "UICollectionViewCell+ZYExtension.h"
+#import <UIImageView+WebCache.h>
+#import "ZYMemberM.h"
+
+@interface ZYAvatarCell ()
+
+/**
+ 头像
+ */
+@property (weak, nonatomic) IBOutlet UIImageView *avatarIV;
+
+/**
+ 用户名
+ */
+@property (weak, nonatomic) IBOutlet UILabel *nameL;
+
+@end
 
 @implementation ZYAvatarCell
 
@@ -21,8 +37,9 @@
 /**
  数据展示
  */
-- (void)viewWithModel:(id)model {
-
+- (void)viewWithModel:(ZYMemberM *)model {
+    [self.avatarIV sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://file.izuiyou.com/account/avatar/id/%@/sz/228", model.avatar]] placeholderImage:[UIImage imageNamed:@"signup_default_avatar"]];
+    self.nameL.text = model.name;
 }
 
 @end
